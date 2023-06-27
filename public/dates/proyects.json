@@ -1,0 +1,35 @@
+{
+    "services": [
+      {
+        "img": "path/to/image1.jpg",
+        "title": "Web Development",
+        "description": "Design and development of responsive and user-friendly web applications using modern front-end technologies and frameworks."
+      },
+      {
+        "img": "path/to/image2.jpg",
+        "title": "Back-End Development",
+        "description": "Building robust and scalable server-side applications using languages like Node.js or Python, and integrating with databases such as MySQL or MongoDB."
+      },
+      {
+        "img": "path/to/image3.jpg",
+        "title": "API Development",
+        "description": "Creating efficient and secure APIs (Application Programming Interfaces) to facilitate communication between different software components or third-party services."
+      },
+      {
+        "img": "path/to/image4.jpg",
+        "title": "Database Management",
+        "description": "Designing and managing databases to ensure efficient data storage and retrieval, as well as optimizing queries for improved performance."
+      },
+      {
+        "img": "path/to/image5.jpg",
+        "title": "Deployment and DevOps",
+        "description": "Deploying web applications to production environments, configuring servers, and implementing continuous integration/continuous deployment (CI/CD) pipelines."
+      },
+      {
+        "img": "path/to/image6.jpg",
+        "title": "Collaboration and Communication",
+        "description": "Working closely with cross-functional teams, communicating project requirements and progress effectively, and participating in agile development processes."
+      }
+    ]
+  }
+  
