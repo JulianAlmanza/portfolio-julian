@@ -2,10 +2,10 @@
   "name": "julian-almanza-porfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://julianalmanza.github.io/Page-Web-ModidecorMD",
+  "homepage": "http://julianalmanza.github.io/julian-almanza-portfolio",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d .next",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
