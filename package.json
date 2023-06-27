@@ -2,7 +2,7 @@
   "name": "julian-almanza-porfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://julianalmanza.github.io/julian-almanza-portfolio",
+  "homepage": "http://julianalmanza.github.io/portfolio-julian",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d .next",
