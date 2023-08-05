@@ -79,8 +79,6 @@
     border-bottom: 0.2rem solid #0ef;
   }
 
-  .navbar:hover:before {}
-
   /* Config Social Pages */
   .Link {
     transition: 0.5s ease;
@@ -105,6 +103,28 @@
 
 @media (max-width:767px) {
   .barra {
-    display: none;
+    display: grid;
+    position: fixed;    
+    background: rgba(0, 0, 0, 0.767);
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    justify-content: center;
+    gap: 0;     
+    transition: .6s;  
   }
+
+  .nav__link{
+    height: min-content;      
+    text-align: center;     
+  }
+
+  .nav__link:hover{
+    color: #0ef;    
+    border-bottom: 0.2rem solid #0ef;
+  }
+  
 }
