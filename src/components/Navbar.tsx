@@ -10,7 +10,7 @@ function Navbar() {
         const barra = document.querySelector('.barra');
         // Verificar si se está ejecutando en el cliente antes de acceder al DOM
         if (typeof document !== 'undefined') {
-            const barra = document.querySelector('.barra');
+            const barra = document.querySelector('.barra') as HTMLElement;
             // Verifica si el elemento existe antes de realizar operaciones
             if (barra && screen.width <= 767) {
                 // Realiza operaciones con el elemento
