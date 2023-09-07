@@ -1,0 +1,36 @@
+.services{
+    margin-top: 3rem;
+    height: max-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(90vw,1fr));      
+    
+}
+
+.title{
+    text-align: center;
+    font-size: clamp(2rem,max(3.5vw,3vh),9rem);
+}
+
+.span{
+    color: var(--btn-color);
+    font-size: clamp(1rem,max(4vw,3vh),9rem);
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(42vw,1fr));
+    gap: 1rem;
+}
+
+.list{
+    display: grid;
+}
+
+.subtitle{
+    color: var(--title-color);
+    font-size: clamp(1.3rem,max(3.5vw,2vh),9rem);
+}
+
+.description{
+    font-size: clamp(1rem,max(2.5vw,2vh),9rem);
+}

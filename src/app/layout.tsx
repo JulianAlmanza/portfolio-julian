@@ -18,7 +18,7 @@ export default function RootLayout({
       <head>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className + ' container'}>{children}</body>
     </html>
   )
 }

@@ -1,130 +1,45 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
-
-@layer base {
-  html {
-    font-family: 'Poppins', sans-serif;
-  }
-}
-
-* {
+*{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;  
-  color: white;
+  box-sizing: border-box;  
+  scroll-behavior: smooth;
+  font-family: 'Fanwood Text', serif;
+  font-weight: 100;
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
 }
 
-
-.nav:target {
-  --state-menu: translate(0);
-  --state-close: scale(1);
-  --state-hamburguer: scale(0);
+body{
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
-.nav__hamburguer,
-.nav__close {
-  cursor: pointer;
-  grid-column: -2/-1;
-  grid-row: 1/2;
-  transition: .4s transform;
+:root{
+  --text-color: #ffff;
+  --title-color: #4ADE80;
+  --btn-color: #00eeff;
+  --bg-color: #1F242D;
+  --logo-color: #51DC51;
+  --bg-color-2: #323946;
 }
 
-.nav__hamburguer {
-  transform: var(--state-hamburguer);
+.container{
+  width: 90%;
+  margin: 0 auto;
 }
 
-.nav__close {
-  transform: var(--state-close);
+.btn{
+  margin: auto;
+  color: var(--bg-color);
+  background-color: var(--btn-color);
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 30px;
+  font-size: clamp(1.8rem,max(4vw,2vh),9rem);
 }
 
-@media (min-width:768px) {
-  .nav {
-    --state-close: scale(0);
-    --state-hamburguer: scale(0);
-    --state-menu: translate(0);
-  }
-
-  .nav:target {
-    --state-close: scale(0);
-  }
-
-  .nav__links {
-    padding: 0;
-    background-color: unset;
-    position: unset;
-    gap: 1.5em;
-    grid-auto-flow: column;
-    transform: unset;
-
-    grid-column: -2/-1;
-    grid-row: 1/2;
-  }
-
-  .nav__link {
-    font-size: 1rem;
-    letter-spacing: none;
-  }
-
-  /* Navbar Config */
-  .navbar {
-    transition: .2s;
-  }
-
-  .navbar:hover,
-  .navbar:active {
-    color: #0ef;
-    border-bottom: 0.2rem solid #0ef;
-  }
-
-  /* Config Social Pages */
-  .Link {
-    transition: 0.5s ease;
-  }
-
-  .Link:hover {
-    background: #0ef;
-    box-shadow: 0 0 1rem #0ef;
-    color: #1f242d;
-  }
-
-
-  /* Config Button */
-  .btn {
-    transition: 0.5s ease;
-  }
-
-  .btn:hover {
-    box-shadow: 0 0 1rem #0ef;
-  }
-}
-
-@media (max-width:767px) {
-  .barra {
-    display: grid;
-    position: fixed;    
-    background: rgba(0, 0, 0, 0.767);
-    width: 100%;
-    height: 100vh;
-    left: 0;
-    top: 0;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-    justify-content: center;
-    gap: 0;     
-    transition: .6s;  
-  }
-
-  .nav__link{
-    height: min-content;      
-    text-align: center;     
-  }
-
-  .nav__link:hover{
-    color: #0ef;    
-    border-bottom: 0.2rem solid #0ef;
-  }
-  
+.btn:hover{
+  box-shadow: 0 0 1rem #0ef;
 }

@@ -1,23 +1,23 @@
 import Main from '@/components/Main'
-import Contacto from '@/components/Contact'
+import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import About from '@/components/About'
 import Services from '@/components/Services'
 import Projects from '@/components/Projects'
+import Skills from '@/components/Skills'
 
 export default function Home() {
   return (
-   <section className='font-poppins scroll-smooth'>
+    <>
       <Navbar/>
-      <main>
-        <Main/>
-        <About/>
-        <Services/>
-        <Projects/>
-        <Contacto/>
-      </main>
-      <Footer/>      
-   </section>
+      <Main/>
+      <About/>
+      <Services/>
+      <Projects/>
+      <Skills/>
+      <Contact/>
+      <Footer/>
+    </>    
   )
 }

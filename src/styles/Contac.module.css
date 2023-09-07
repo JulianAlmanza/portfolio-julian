@@ -1,0 +1,48 @@
+.contact{    
+    height: max-content;
+}
+
+.title{
+    text-align: center;
+    font-size: clamp(2rem,max(3.5vw,2.5vh),9rem);
+}
+
+.span{
+    color: var(--btn-color);
+    font-size: clamp(2rem,max(4vw,3vh),9rem);
+}
+
+.form{    
+    width: 100%;
+    height: max-content;
+    display: grid;    
+}
+
+.box{
+    display: grid;
+    grid-template-columns : repeat(auto-fit, minmax(300px,1fr));
+    column-gap: 1rem;      
+}
+
+.input{    
+    background-color: #323946;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    border: 0;    
+    font-size: clamp(1rem,max(2vw,2vh),9rem);
+    width: 100%;
+    height: max(6vh,6vw);    
+    color: var(--text-color);  
+}
+
+.msg{
+    background-color: #323946;
+    margin: 1rem 0 2rem 0;
+    padding: 1rem 0 0 1rem;
+    font-size: clamp(1.2rem,max(3.5vw,2vh),9rem);
+    width: 100%;
+    height: max(20vh,20vw); 
+    color: var(--text-color);           
+}
+
+
