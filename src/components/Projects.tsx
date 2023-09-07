@@ -11,7 +11,7 @@ function Projects() {
         <p className={style.description}>Web page for the company ModidecorMD dedicated to the manufacture of furniture. <span className={style.skills}>Made with NextJS (React, Typescript, HTML5, CSS) </span></p>
         <div className={style.image}>
           <a href="https://modidecor-md-julianalmanza.vercel.app/" target='_blank'>
-            <Image src={'/image/projects/Captura 3.jpg'} alt='' layout='fill' className={style.img} />
+            <Image src={'/image/Projects/Captura 3.jpg'} alt='' layout='fill' className={style.img} />
           </a>
         </div>
       </div>
