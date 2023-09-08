@@ -25,7 +25,7 @@ function Services() {
             </div>
             <div className={style.list}>
                 <h3 className={style.subtitle}>Implementación y DevOps</h3>
-                <p className={style.description}>Implementar aplicaciones web en entornos de producción, configurar servidores e implementar canales de integración/implementación continua (CI/CD).</p>                
+                <p className={style.description}>Implementar aplicaciones web en entornos de producción, configurar servidores e implementar canales de integración o implementación continua (CI/CD).</p>                
             </div>
             <div className={style.list}>
                 <h3 className={style.subtitle}>Colaboración y Comunicación</h3>

@@ -2,7 +2,7 @@
     height: 90vh;
     gap: 1rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));    
 }
 
 .contain{
@@ -69,6 +69,9 @@
     margin: auto;
     height: max(40vh,40vw);
     position: relative;    
+    @media (max-width: 998px) {
+        grid-row: 1/1;      
+    }
 }
 
 .img{
@@ -78,7 +81,6 @@
     object-position: 50% 42%;
     border-radius: 50%;
     mix-blend-mode: luminosity;    
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 1);    
-    transition: box-shadown .1s, transform;
+    
 }
 
