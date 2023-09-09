@@ -14,8 +14,8 @@ function Contact() {
           <input className={style.input} type="text" placeholder='Asuno del Correo' />
         </div>
 
-        <textarea className={style.msg} placeholder='Su Mensaje'></textarea>        
-          <a className={'btn'} href="">Send  Message</a>               
+        <textarea className={style.msg} placeholder='Su Mensaje'></textarea>
+        <a className={'btn'} href="">Enviar  Mensaje</a>
       </form>
     </section>
   )
